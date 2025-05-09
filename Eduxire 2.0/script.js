@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Fetch videos from YouTube API
     async function fetchVideos(pageToken = '') {
-        const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=education&type=video&maxResults=10&pageToken=${pageToken}&key=AIzaSyA-X5VK_sXpONGItr1-m9jgYhDtU-o_DeI`;
+        const apiUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=education&type=video&maxResults=10&pageToken=${pageToken}&key=xxx`;
 
         try {
             const response = await fetch(apiUrl);
